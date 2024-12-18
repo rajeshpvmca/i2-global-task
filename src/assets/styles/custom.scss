@@ -1,0 +1,117 @@
+// login page
+.login_bg {
+        background-image: url('../img/login-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        width: 100% !important;
+        height: 100vh;
+  }
+
+.header_bg {
+    background-color: #d7e7ff;
+  }
+  
+  .login-form-wrapper {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .fw-6 {
+    font-weight: 600 !important;
+  }
+
+  .text_primary{
+    color: #041f63 !important;
+  }
+  
+  .btn-primary{
+    background-color: #041f63 !important;
+    border: 1px solid #041f63 !important;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+  }
+  
+  .btn-primary:hover{
+    background-color: #041f63 !important;
+    border: 1px solid #041f63 !important;
+  }
+
+  // form login
+  .ant-form {
+    .ant-form-item {
+        .ant-row {
+            .ant-col.ant-form-item-label {
+                .ant-form-item-required {
+                    font-size: 1.2rem;
+                }
+            }
+            .ant-col.ant-form-item-control {
+                .ant-form-item-control-input {
+                    .ant-form-item-control-input-content {
+                        .ant-input {
+                            padding: 0.6rem 0.9rem ;
+                        }
+                        .ant-input-password {
+                            .ant-input {
+                                padding: 0.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+
+  .ant-modal-wrap {
+  .ant-modal {
+    .ant-modal-content {
+      .ant-modal-header {
+        .ant-modal-title {
+          font-size: 1.5rem;
+        }
+      }
+      .ant-modal-body {
+        .header-divider {
+          margin: 0.5rem 0rem;
+        }
+        .ant-form {
+          width: 100%;
+          .ant-form-item {
+            width: 32%;
+          }
+        }
+      }
+  
+      .ant-modal-footer {
+        .ant-btn.ant-btn-default,
+        .ant-btn.ant-btn-default:hover {
+          background: #FE7166 ;
+          border: none;
+  
+          span {
+            font-size: small;
+            color: #ffffff ;
+          }
+        }
+  
+        .ant-btn.ant-btn-primary {
+          background: #207E56 ;
+  
+          span {
+            font-size: small;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+  
+
